@@ -1,7 +1,7 @@
 {
     'targets': [
         {
-                'target_name': 'binding',
+                'target_name': 'ledjs',
                       'sources': [ 'ledjs.cc', 'ws2812-RPi.c' ]
                           }
                             ]
