@@ -521,7 +521,7 @@ typedef struct {
 	unsigned char b;
 } Color_t;
 
-#define LED_BUFFER_LENGTH 24
+#define LED_BUFFER_LENGTH 90
 Color_t LEDBuffer[LED_BUFFER_LENGTH];
 
 unsigned int numLEDs = LED_BUFFER_LENGTH;		// How many LEDs there are on the chain
